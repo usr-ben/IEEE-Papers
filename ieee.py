@@ -18,7 +18,7 @@ afn=raw_input("ENTER THE AUTHOR FIRST NAME: ")
 asn=raw_input("ENTER THE AUTHOR SECOND NAME: ")
 asn=asn.lower()
 num=raw_input("ENTER THE DOI DETAILS : ")
-year=raw_input("ENTER THE YEAR OF PUBLISH: ")
+year=raw_input("ENTER THE YEAR OF PUBLISH(only year*): ")
 
 encoded=base64.b64encode(num)
 url="http://cyber.sci-hub.cc/"+encoded+"/"+asn+year+".pdf"
